@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src = "formChecker.js"></script>
     <title>Store</title>
     <link href = "style.css"
     rel = "stylesheet"
     type = "text/css"/>
   </head>
   <body>
-    <form action = "customerBackend.php" method = "POST">
+    <form action = "customerBackend.php" method = "POST" onsubmit = "run()">
     <div class = "userinfo">
     <p>User info: </p>
-    Enter your username <input type="text"id="username" name="username" placeholder="joemama@email.com"<br><br>
+    Enter your username <input type="email" required id="username" name="username" placeholder="joemama@email.com"<br><br>
     Enter your password: <input type="password" id="password" name="password"<br><br>
     </div>
 
@@ -32,7 +33,7 @@
     <br>
 
     <div class = "buttonclick">
-    <input type = "Submit" value = "Submit" onclick="run()">
+    <input type = "Submit" value = "Submit" onClick = "return run()">
     <input type = "reset" value = "Reset">
     </div>
 
