@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store</title>
+    <link href = "style.css"
+    rel = "stylesheet"
+    type = "text/css"/>
+  </head>
+  <body>
+    <form action = "customerBackend.php" method = "POST">
+    <div class = "userinfo">
+    <p>User info: </p>
+    Enter your username <input type="text"id="username" name="username" placeholder="joemama@email.com"<br><br>
+    Enter your password: <input type="password" id="password" name="password"<br><br>
+    </div>
+
+    <div class = "shipping">
+    <p>Shipping: </p>
+    <input type = "radio" id ="Free 7 day " name = "shipping" value = "Free 7 day ">Free 7 day
+    <input type = "radio" id ="$50.00 over night  " name = "shipping" value = "$50.00 over night  ">$50.00 over night
+    <input type = "radio" id ="$5.00 three day " name = "shipping" value = "$5.00 three day ">$5.00 three day
+    </div>
+    <br>
+
+    <div class = "products">
+    <p>Products: </p>
+
+    <input type = "number" id = "Beans" name = "Beans" value = "Beans" placeholder="0"> Beans ($5.00 ea.)<br>
+    <input type = "number" id = "BakedBeans" name = "BakedBeans" value = "BakedBeans" placeholder="0"> Baked Beans ($30.00 ea.)<br>
+    <input type = "number" id = "Goldinfusedbeans" name = "Goldinfusedbeans" value = "Goldinfusedbeans" placeholder="0"> Gold infused beans ($600.00 ea.)<br>
+    </div>
+    <br>
+
+    <div class = "buttonclick">
+    <input type = "Submit" value = "Submit" onclick="run()">
+    <input type = "reset" value = "Reset">
+    </div>
+
+  </form>
+
+  </body>
+
+</html>

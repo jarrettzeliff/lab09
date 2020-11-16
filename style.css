@@ -1,0 +1,67 @@
+body
+{
+  background-color: #2FFAD8;
+}
+
+#username
+{
+  border-radius: 10px;
+}
+#password
+{
+  border-radius: 10px;
+}
+#Beans
+{
+  border-radius: 10px;
+}
+#BakedBeans
+{
+  border-radius: 10px;
+}
+
+#Goldinfusedbeans
+{
+  border-radius: 10px;
+}
+#Submit
+{
+  border-radius: 20px;
+}
+#Reset
+{
+  border-radius: 20px;
+}
+
+.userinfo
+{
+  font-family: verdana;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.shipping
+{
+  margin-left: 150px;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.products
+{
+  margin-left: 150px;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.buttonclick
+{
+  margin-left: 150px;
+  font-family: verdana;
+  font-size: 20px;
+}
+.buttonclick:hover
+{
+  color: red;
+}
