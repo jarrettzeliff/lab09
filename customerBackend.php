@@ -13,7 +13,7 @@
   $subtotal2 = 0;
   $subtotal3 = 0;
   $total = 0;
-
+  $shippingcost = 0;
   if ($shipping == "Free 7 day")
   {
     $shippingcost = 0;
@@ -26,12 +26,16 @@
   {
     $shippingcost = 5;
   }
+  else
+  {
+    $shippingcost = 0;
+  }
 
   $subtotal1 = $beans * 5;
   $subtotal2 = $bakedbeans * 30;
   $subtotal3 = $goldinfusedbeans * 600;
   $total = $subtotal1 + $subtotal2 + $subtotal3 + $shippingcost;
-  $shippingcost;
+
 
   echo "<p> Welcome!";
   echo "<p>Your username is $username<br>";
@@ -47,4 +51,3 @@
 
 
 ?>
-
