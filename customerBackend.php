@@ -26,10 +26,7 @@
   {
     $shippingcost = 5;
   }
-  else
-  {
-    $shippingcost = 0;
-  }
+
 
   $subtotal1 = $beans * 5;
   $subtotal2 = $bakedbeans * 30;
